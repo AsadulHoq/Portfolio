@@ -1,0 +1,285 @@
+*
+{
+    margin: 0;
+    padding: 0:
+}
+body
+{
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(8, 8, 56);
+}
+nav ul
+{
+    justify-content: center;
+    display: flex;
+}
+nav ul li
+{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+main hr
+{
+    border: 0;
+    height: 1.2px;
+    background-color: #9c97f1;
+    margin: 40px 84px;
+}
+.left 
+{
+    font-size:1.5rem;
+}
+.firstsection
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+    align-items: center;
+}
+.firstsection > div
+{
+    width: 30%;
+}
+
+.rightsection img
+{
+   width: 80%;
+   margin: 50px 0;
+}
+.leftsection
+{
+    font-size: 2.5rem;
+    margin: 30px 0;
+}
+.purple
+{
+    color: blueviolet;
+}
+#animated-text
+{
+    color: blueviolet;
+}
+.secondsection
+{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondsection h1
+{
+    font-size: 1.9rem;
+}
+.secondsection .box
+{
+    background: white;
+    height: 2px;
+    width: 80vw;
+    margin: 56px 0;
+    display: flex;
+}
+.secondsection .vertical
+{
+    background-color: white;
+    height: 93px;
+    width: 1px;
+    margin: 0 100px;
+    
+}
+.image-top
+{
+    width: 30px;
+    position: relative;
+    top: -33px;
+    left: -14px;
+
+}
+.vertical-title
+{
+    position: relative;
+    top: 65px;
+    width: 150px;
+}
+.vertical-desc
+{
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 10px;
+}
+.footer
+{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+footer
+{
+    background-color: #2d282d;
+    height: 230px;
+   
+}
+.footer ul li
+{
+    list-style: none;
+}
+footer .footerright
+{
+    text-align: center;
+    padding: 30px 30px;
+    
+}
+.subcriberbutton input
+{
+    padding: 5px;
+    border: 0;
+}
+.subcriberbutton button
+{
+    padding:5px;
+    color: rgb(220, 232, 220);
+    background-color: rgb(33, 186, 199);
+    border: none;
+}
+.subcriberbutton
+{
+    margin: 40px; 
+}
+.footer-first h1
+{
+    margin: 40px;
+}
+.skills-section
+{
+    height: 400px;
+    background-color: #05161bc1;
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .skill-container {
+    margin: 10px 0;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 30px;
+    margin-top: 5px;
+  }
+  
+  .skill {
+    height: 100%;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 30px;
+    color: white;
+    border-radius: 25px;
+  }
+  
+  .html {
+    width: 90%;
+    background-color: #f16529; /* HTML skill level */
+  }
+  
+  .css {
+    width: 80%;
+    background-color: #2965f1; /* CSS skill level */
+  }
+  
+  .js {
+    width: 70%;
+    background-color: #f0db4f; /* JavaScript skill level */
+  }
+  .php
+  {
+    width: 90%;
+    background-color: #1f11a1
+  }
+  .Contact-section
+  {
+   background-color: #9c97f1;
+   padding:50px;
+  }
+  /* General Body Styling */
+
+  
+  /* Container for the form */
+  .contact-form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin-left: 25%;
+  }
+  
+  /* Form title */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  /* Form labels */
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Input fields */
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  /* Submit button styling */
+  form input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  /* Submit button hover effect */
+  form input[type="submit"]:hover {
+    background-color: #4cae4c;
+  }
+  
